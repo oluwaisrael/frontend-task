@@ -1,21 +1,20 @@
+# Site images
 
-Put your replacement images in this folder using these filenames. The current pages still use their existing image sources; adding files here will not change the site until the image references are updated.
+Architecture and interior photos are stored locally here and used across the pages. They were sourced from Unsplash; the filenames below describe their current roles.
 
-- `home-hero.jpg` - homepage hero
-- `about-hero.jpg` - about page banner
-- `about-detail-1.jpg` and `about-detail-2.jpg` - about section photos
-- `services-hero.jpg` - services page banner
-- `service-architecture.jpg`, `service-exterior.jpg`, `service-interior.jpg` - service cards
-- `projects-hero.jpg` - projects page banner
-- `project-01.jpg` through `project-06.jpg` - project gallery
-- `contact-hero.jpg` - contact page banner
-- `contact-map.jpg` - contact location image
-- `blog-hero.jpg` - blog page banner
-- `blog-01.jpg` through `blog-06.jpg` - blog cards and article covers
-- For each article number `01` through `06`, use `article-NN-detail-1.jpg` and `article-NN-detail-2.jpg` - article galleries (12 images total)
-- `feature-banner.jpg` - wide feature section
-- `cta-background.jpg` - shared call-to-action background
-- `team-01.jpg` through `team-08.jpg` - team portraits
-- `client-portrait.jpg` - testimonial portrait
+- `modern-facade.jpg` - homepage hero and architecture cards
+- `house-exterior.jpg` - residential exterior and article imagery
+- `bright-interior.jpg` - interiors, blog cards, and light-focused article
+- `interior-detail.jpg` - interior service and materials imagery
+- `villa-exterior.jpg` - residential architecture and project images
+- `warm-interior.jpg` - living spaces and article galleries
+- `home-detail.jpg` - project and material detail imagery
+- `arched-building.jpg` - feature banner and urban project imagery
+- `glass-tower.jpg` - city and architecture banners
+- `studio-interior.jpg` - blog and studio imagery
+- `city-context.jpg` - contact location image
+- `team-01.jpg` through `team-08.jpg` - existing portrait images, saved locally
 
-JPG is the suggested format. Keep these filenames as written so they are easy to connect to the page later.
+The HTML and blog data use these local files, so the site no longer hotlinks the photos. Replace an image by keeping its filename, or update the matching `src`/`hero` path when you add another asset.
+
+Photo sources: Unsplash image IDs `1487958449943-c627a92ad1ab`, `1600585154340-be6161a56a0c`, `1600607687939-ce8a6c25118c`, `1600566753190-17f0baa2a6c3`, `1600585154526-990dced4db0d`, `1600210492486-724fe5c67fb0`, `1600566753086-00f18fb6b3ea`, `1545324418-cc1a3fa10c00`, `1486406146926-c627a92ad1ab`, `1486325212027-8081c545aebf`, `1497366216548-37526070297c`, and `1524661135-423995f22d0b`.
