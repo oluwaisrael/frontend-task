@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Derin & Israel</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  
+  <header class="header header-solid">
+    <div class="container header-inner">
+      <a href="index.html" class="logo logo-dark">
+        <span class="logo-icon">⌂</span> Derin & Israel
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link nav-dark">Home</a>
+        <a href="about.html" class="nav-link nav-dark">About</a>
+        <a href="services.html" class="nav-link nav-dark">Services</a>
+        <a href="projects.html" class="nav-link nav-dark">Projects</a>
+        <a href="contact.html" class="nav-link nav-contact-dark active">Contact</a>
+      </nav>
+      <button class="mobile-menu-btn mobile-menu-dark" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  
+  <section class="page-hero">
+    <div class="page-hero-bg">
+      <img src="https://images.unsplash.com/photo-1486325212027-8081c545aebf?w=1600&q=80" alt="City">
+    </div>
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Contact</h1>
+    </div>
+  </section>
+
+  
+  <section class="contact-section">
+    <div class="container contact-inner">
+
+      <div class="contact-info">
+        <h2>Get In Touch</h2>
+        <p>
+          If you have a site, a brief, or a vision in mind, we’d be glad to talk through the possibilities. We work closely with clients to shape practical, refined spaces that feel right from the first conversation.
+        </p>
+
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-label">Address</span>
+            <p>123 Architecture Ave<br>New York, NY 10001</p>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Phone</span>
+            <p>+1 (555) 123-4567</p>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Email</span>
+            <p>hello@derinisrael.com</p>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Hours</span>
+            <p>Mon – Fri: 9am – 6pm<br>Sat: 10am – 4pm</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-orange">Send Message</button>
+          <p class="form-success" id="formSuccess" hidden>Thank you! Your message has been sent.</p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section class="map-section">
+    <div class="map-placeholder">
+      <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1600&q=80" alt="Map location">
+      <div class="map-overlay">
+        <p>123 Architecture Ave, New York, NY 10001</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="cta">
+    <div class="cta-bg">
+      <img src="https://images.unsplash.com/photo-1486325212027-8081c545aebf?w=1600&q=80" alt="City skyline">
+    </div>
+    <div class="cta-overlay"></div>
+    <div class="container cta-inner">
+      <h2>Book a design conversation</h2>
+      <a href="contact.html" class="btn btn-orange">Contact Us</a>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-icon">⌂</span> Derin & Israel
+          </a>
+          <p>Built by Derin & Israel — thoughtful architecture, honest materials, and spaces that feel personal.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <a href="about.html">About Us</a>
+          <a href="projects.html">Projects</a>
+          <a href="services.html">Services</a>
+          <a href="blog.html">Blog</a>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <a href="services.html">Interior Design</a>
+          <a href="services.html">Architecture Design</a>
+          <a href="services.html">Exterior Design</a>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <p>123 Architecture Ave<br>New York, NY 10001</p>
+          <p>+1 (555) 123-4567</p>
+          <p>hello@derinisrael.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Derin & Israel. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    const form = document.getElementById('contactForm');
+    const success = document.getElementById('formSuccess');
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        form.reset();
+        success.hidden = false;
+        setTimeout(() => { success.hidden = true; }, 4000);
+      });
+    }
+  </script>
+</body>
+</html>
